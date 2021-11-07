@@ -1,7 +1,7 @@
 body {
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #FFE6E6;
+    background-color: rgb(255, 230, 230);
     color: white;
     min-height: 100vh;
     display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 #container {
-    background-color: #80B3FF;
+    background-color: rgb(128, 179, 255);
     max-width: 20%;
     min-width: 20%;
     padding: 15px;
@@ -23,7 +23,7 @@ body {
 div {
     max-width: 95%;
     min-width: 95%;
-    background-color: gray;
+    background-color: rgb(134, 133, 133);
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
