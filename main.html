@@ -4,39 +4,39 @@
         <title>Password Generator</title>
         <link rel="stylesheet" href="style.css">
     </head>
-<body>
-    <main id="container">
-        <h2>Password Generator</h2>
-        <div class="different">
-            CLICK GENERATE PASSWORD
-        </div>
-        <form>
-            <h6>LENGTH</h6>
-            <div id="length">
-                <label for="length">Enter Length</label>
-                <input type="number" id="length" name="length" value="8" min="4" max="32" required>
-            </div>
-            <h6>SETTINGS</h6>
-            <div>
-                <label for="uppercase">Include Uppercase</label>
-                <input type="checkbox" id="uppercase" name="characters" value="uppercase">
-            </div>
-            <div>
-                <label for="lowercase">Include Lowercase</label>
-                <input type="checkbox" id="lowercase" name="characters" value="lowercase">
-            </div>
-            <div>
-                <label for="number">Include Numbers</label>
-                <input type="checkbox" id="number" name="characters" value="number">
-            </div>
-            <div>
-                <label for="symbol">Include Symbols</label>
-                <input type="checkbox" id="symbol" name="characters" value="symbol">
-            </div>
+    <body>
+        <main id="container">
+            <h2>Password Generator</h2>
             <div class="different">
-                <button id="submit" type="button" name="genpwd" disabled>GENERATE PASSWORD</button>
+                CLICK GENERATE PASSWORD
             </div>
-        </form>
-    </main>
-</body>
+            <form>
+                <h6>LENGTH</h6>
+                <div id="length">
+                    <label for="length">Enter Length</label>
+                    <input type="number" id="length" name="length" value="8" min="4" max="32" required>
+                </div>
+                <h6>SETTINGS</h6>
+                <div>
+                    <label for="uppercase">Include Uppercase</label>
+                    <input type="checkbox" id="uppercase" name="characters" value="uppercase">
+                </div>
+                <div>
+                    <label for="lowercase">Include Lowercase</label>
+                    <input type="checkbox" id="lowercase" name="characters" value="lowercase">
+                </div>
+                <div>
+                    <label for="number">Include Numbers</label>
+                    <input type="checkbox" id="number" name="characters" value="number">
+                </div>
+                <div>
+                    <label for="symbol">Include Symbols</label>
+                    <input type="checkbox" id="symbol" name="characters" value="symbol">
+                </div>
+                <div class="different">
+                    <button id="submit" type="button" name="genpwd" disabled>GENERATE PASSWORD</button>
+                </div>
+            </form>
+        </main>
+    </body>
 </html>
