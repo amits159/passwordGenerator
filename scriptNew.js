@@ -1,7 +1,9 @@
 const generate = document.getElementById('submit');
+const result = document.getElementById("result");
 
 generate.addEventListener('click', () =>{
-    const length = document.getElementById('length').value;
+    const x = document.getElementById('len');
+    const length = +x.value;
     const lower = document.getElementById('lowercase').checked;
     const upper = document.getElementById('uppercase').checked;
     const number = document.getElementById('number').checked;
@@ -16,7 +18,8 @@ generate.addEventListener('click', () =>{
     if(symbols)
         arr.push('symbol');
     let password = genPwd(length, arr);
-    document.getElementById("password").innerText = password;
+    result.innerHTML = `<p>${password}</p>`;
+
 });
 
 function genPwd(length, arr){
